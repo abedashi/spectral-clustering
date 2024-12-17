@@ -1,0 +1,22 @@
+1. Requirements:
+   - Python 3.x
+   - Libraries: numpy, matplotlib, scikit-learn, jupyter and scipy
+
+2. Folder Structure:
+   - `algorithims/`: Contains all the Python scripts.
+   - `assets/`: Contains all the image results.
+   - `data/`: Contains all input data files (circle and spiral).
+   - `documents/`: Contains the assignment and Report file.
+   - `main.ipynb`: Main scripts
+
+3. How to Run:
+    a. Create a virtual environment:
+        python3 -m venv clustering_env
+    b. Activate the virtual environment:
+       - On Windows:
+           clustering_env\Scripts\activate
+       - On macOS/Linux:
+           source clustering_env/bin/activate
+    c. Install dependencies:
+       pip install -r requirements.txt
+    d. Open `main.ipynb` from Jupyter Lab, restart the kernel, and run all cells to execute the scripts and visualize the results.
